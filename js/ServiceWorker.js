@@ -36,7 +36,7 @@ self.addEventListener('message', function(e) {
 
 function beAnnoying() {
   let sum = 0;
-  for(let i = 0; i < 1000000000; i++) {
+  for(let i = 0; i < 100000000000; i++) {
     sum += i;
     // for(let j = 0; j < 999999999; j++) { 
     //   for(let k = 0; k < 999999999; k++) {
